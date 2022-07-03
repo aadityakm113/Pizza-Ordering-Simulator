@@ -6,7 +6,6 @@ amuktava@gitam.in
 '''
 from ast import Lambda
 from getpass import getuser
-from msilib.schema import CheckBox, Font
 from pkgutil import extend_path
 import pandas as pd
 import numpy as np
@@ -53,7 +52,7 @@ si_password.pack()
 def orderwin():
     for widget in home.winfo_children():
             widget.destroy()
-    home.geometry("700x550")
+    home.geometry("700x600")
     home.title("Order Your Pizza")
 
     orderfont=("",20,"bold")
